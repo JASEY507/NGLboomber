@@ -7,9 +7,8 @@ Basitce NGL Hesaplarına Spam Atmanızı Sağlar|-|Yasal Sorumluluk Kullanıcıy
 
 Çalıştırma: 
 
-
+------------------------
 cd ~/ngl-bomber/NGLboomber/NGLboomber 
-
 pip3 install requests --user || pip install requests --user
-
 python3 boomber.py
+----------------------------
