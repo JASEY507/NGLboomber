@@ -9,15 +9,14 @@ import string
 import os
 import sys
 
-# Renk kodları (terminalde güzel dursun)
-R = "\033[91m"   # kırmızı
-G = "\033[92m"   # yeşil
-Y = "\033[93m"   # sarı
-B = "\033[94m"   # mavi
-P = "\033[95m"   # mor
-C = "\033[96m"   # cyan
-W = "\033[97m"   # beyaz
-E = "\033[0m"    # reset
+R = "\033[91m"   
+G = "\033[92m"   
+Y = "\033[93m"   
+B = "\033[94m"   
+P = "\033[95m"   
+C = "\033[96m"   
+W = "\033[97m"   
+E = "\033[0m"    
 
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -114,7 +113,7 @@ def main():
         else:
             hatali += 1
             print(f"[{i:02d}/{kac_tane:02d}] {durum}")
-            # durmuyor, ne olursa olsun devam
+            
 
         time.sleep(random.uniform(min_b / 1000, max_b / 1000))
 
