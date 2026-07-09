@@ -27,7 +27,7 @@ def banner():
     print(f"{P}║          NGLboomber v1.0                   ║{E}")
     print(f"{P}║                                            ║{E}")
     print(f"{Y}║                                            ║{E}")
-    print(f"{G}║   yapımcı: soytariomer.17                  ║{E}")
+    print(f"{G}║   yapımcı: omer17ll                        ║{E}")
     print(f"{P}╚════════════════════════════════════════════╝{E}")
     print(f"{C}Hedef kişiye mesaj yağdır {E}\n")
 
